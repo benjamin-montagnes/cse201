@@ -5,7 +5,7 @@ public:
   void print() { std::cout << "A" << std::endl; }
 };
 
-class B : public A {
+class B  {
 public:
   void print() { std::cout << "B" << std::endl; }
 };
@@ -16,6 +16,5 @@ int main()
   a.print();
   B b;
   b.print();
-  A ba = (A) b;
-  ba.print();
+
 }

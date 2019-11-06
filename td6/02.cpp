@@ -16,6 +16,6 @@ int main()
   a.print();
   B b;
   b.print();
-  A& ba = b;
-  ba.print();
+  A& c = b;
+  c.print();
 }
