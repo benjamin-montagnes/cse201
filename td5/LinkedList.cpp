@@ -1,5 +1,6 @@
 #include "LinkedList.hpp"
 #include<iostream>
+#include<cstdlib>
 
 ListNode::ListNode(int d, ListNode* nxt){
     data=d;
@@ -55,4 +56,9 @@ LinkedList* LinkedList::filterSmaller(int threshold)
     if (cur->data <= threshold)
       ret->append(cur->data);
   return ret;
+}
+
+int main(){
+    srand((unsigned)(time(NULL)));
+    std::cout << rand()%11 << std::endl;
 }
