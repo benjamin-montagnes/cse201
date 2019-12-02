@@ -1,7 +1,5 @@
 #pragma once
-
 #include <string>
-
 #include "Shape.hpp"
 
 namespace Geometry {
